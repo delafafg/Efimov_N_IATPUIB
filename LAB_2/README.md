@@ -52,7 +52,7 @@ library(dplyr)
 
         intersect, setdiff, setequal, union
 
-![](.\Images\1.png)
+![](./Images/1.png)
 
 ### Шаг 2. Анализ датасета starwars
 
