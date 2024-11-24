@@ -30,13 +30,13 @@
 
 На данном шаге необходимо установить программный пакет swirl.
 
-![](.\Images\1.png)
+![](./Images/1.png)
 
 ### Шаг 2. Запуск swirl и выбор обучения
 
-![](.\Images\2.png)
+![](./Images/2.png)
 
-![](.\Images\3.png)
+![](./Images/3.png)
 
 ### Шаг 3. Выполнение курсов
 
@@ -243,9 +243,9 @@ file.info("mytest.R")
 ```
 
              size isdir mode               mtime               ctime
-    mytest.R    0 FALSE  666 2024-11-24 19:36:57 2024-11-24 19:36:57
+    mytest.R    0 FALSE  666 2024-11-24 19:46:21 2024-11-24 19:46:21
                            atime exe
-    mytest.R 2024-11-24 19:36:57  no
+    mytest.R 2024-11-24 19:46:21  no
 
 ``` r
 file.rename("mytest.R", "mytest2.R")
@@ -478,14 +478,14 @@ my_na <- is.na(my_data)
 my_na
 ```
 
-      [1] FALSE  TRUE  TRUE  TRUE  TRUE FALSE  TRUE FALSE  TRUE  TRUE  TRUE FALSE
-     [13] FALSE FALSE  TRUE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE  TRUE  TRUE
-     [25]  TRUE FALSE  TRUE  TRUE FALSE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE  TRUE
-     [37] FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE
-     [49]  TRUE FALSE  TRUE  TRUE FALSE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
-     [61] FALSE  TRUE FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE
-     [73]  TRUE FALSE FALSE FALSE  TRUE  TRUE FALSE  TRUE FALSE FALSE FALSE  TRUE
-     [85] FALSE FALSE  TRUE FALSE  TRUE  TRUE  TRUE FALSE  TRUE FALSE  TRUE  TRUE
+      [1] FALSE  TRUE  TRUE FALSE FALSE  TRUE FALSE  TRUE FALSE FALSE FALSE  TRUE
+     [13] FALSE  TRUE FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE FALSE FALSE  TRUE
+     [25] FALSE  TRUE FALSE  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
+     [37]  TRUE  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE  TRUE FALSE
+     [49] FALSE FALSE  TRUE FALSE  TRUE  TRUE FALSE  TRUE FALSE FALSE  TRUE FALSE
+     [61]  TRUE FALSE  TRUE  TRUE FALSE  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE
+     [73]  TRUE  TRUE FALSE  TRUE  TRUE FALSE  TRUE FALSE  TRUE  TRUE  TRUE FALSE
+     [85] FALSE FALSE FALSE  TRUE  TRUE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE
      [97]  TRUE FALSE  TRUE  TRUE
 
 ``` r
@@ -501,29 +501,32 @@ my_data == NA
 sum(my_na)
 ```
 
-    [1] 49
+    [1] 43
 
 ``` r
 my_data
 ```
 
-      [1]  1.07573031          NA          NA          NA          NA  0.08791494
-      [7]          NA -0.94696709          NA          NA          NA -1.46934012
-     [13] -0.02359400  0.24836853          NA -2.09084474          NA          NA
-     [19]  0.14294883 -0.86350921  0.56938140  1.13849482          NA          NA
-     [25]          NA -0.55699571          NA          NA -1.85243484          NA
-     [31]          NA -0.47548405          NA          NA          NA          NA
-     [37]  0.98369151  0.55419445  0.84576336 -0.48029755  0.78083781          NA
-     [43]          NA -0.57096211  2.27739927  0.40472143  1.22625640  2.27075574
-     [49]          NA  0.48704193          NA          NA -1.15609261 -0.01364035
-     [55]          NA -0.38676675          NA -0.75888437          NA  0.18046983
-     [61] -1.16013599          NA  0.35012037  0.05621970          NA          NA
-     [67]  0.76303994  1.49631432 -0.31832391  0.51583153  0.13297841          NA
-     [73]          NA -0.06613242  0.09250195  0.62196214          NA          NA
-     [79] -1.02802308          NA -1.85892426 -0.68690451 -1.62100361          NA
-     [85]  0.34690575 -2.23832336          NA -0.25054113          NA          NA
-     [91]          NA  1.66401507          NA  0.86002676          NA          NA
-     [97]          NA -0.24441896          NA          NA
+      [1]  0.683938830           NA           NA -1.288150726 -1.254294679
+      [6]           NA -0.637524508           NA -1.375581461 -0.003722559
+     [11]  1.189724626           NA -1.165861151           NA  0.554053743
+     [16]  0.172681470 -0.467409109           NA           NA           NA
+     [21]           NA  0.069948743 -1.305184570           NA  0.163614157
+     [26]           NA  1.432424902           NA  1.014589577  0.107094722
+     [31]           NA  0.854177905 -0.009797410 -0.193421132 -0.538611369
+     [36]  0.758416048           NA           NA  0.039952478 -1.053142342
+     [41]           NA  1.488231269 -0.810597571 -0.368142178           NA
+     [46] -1.111302794           NA -0.374616905  0.229249349 -1.039323875
+     [51]           NA -0.468277191           NA           NA  1.352816105
+     [56]           NA -0.589900010 -0.586478029           NA -0.080160992
+     [61]           NA  0.364938808           NA           NA  0.056643982
+     [66]           NA -0.372447603  1.687266079           NA  0.734473431
+     [71] -0.510726060  1.677047020           NA           NA -0.257289583
+     [76]           NA           NA  0.528820330           NA  0.660159148
+     [81]           NA           NA           NA -1.211711286  0.543710700
+     [86] -1.850313387 -0.092931885           NA           NA -0.445347458
+     [91]  0.517046829 -1.957800832 -1.312731670           NA -2.811232468
+     [96]  0.099546294           NA  1.154939366           NA           NA
 
 ``` r
 0 / 0
