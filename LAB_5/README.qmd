@@ -115,7 +115,7 @@ data1 %>% arrange(desc(Speed)) %>% head(10) %>% select(BSSID, Speed)
 data1 %>% mutate(duration = as.numeric(difftime(Last.time.seen, First.time.seen, units = "secs"))) %>% filter(as.integer(duration) != 0) %>% mutate(beacons_per_second = X..beacons / as.integer(duration)) %>% arrange(desc(beacons_per_second)) %>% select(BSSID, X..beacons, duration, beacons_per_second )
 ```
 
-### Шаг 2. Анализ датасетов (данные клиентов)
+### Шаг 3. Анализ датасетов (данные клиентов)
 
 #### 1. Определить производителя для каждого обнаруженного устройства
 
