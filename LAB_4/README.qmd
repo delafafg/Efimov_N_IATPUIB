@@ -1,5 +1,5 @@
 ---
-title: "LAB_5"
+title: "LAB_4"
 author: "Ефимов Никита"
 format:
   md:
