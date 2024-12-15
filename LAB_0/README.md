@@ -37,8 +37,7 @@ posit.co
 
 ### Шаг 2. Создание репозитория на GitHub
 
-Создан репрозиторий github по
-[ссылке](https://github.com/delafafg/Efimov_N_IATPUIB/)
+Создан репозиторий github Efimov_N_IATPUIB
 
 ![](./Images/2.png)
 
