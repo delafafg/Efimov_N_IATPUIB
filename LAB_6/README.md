@@ -62,7 +62,7 @@
 
 ![](./Images/6.png)
 
-Ссылка на дашборд: https://datalens.yandex.cloud/i4uie6lfceru5
+[Ссылка на дашборд](https://datalens.yandex.cloud/i4uie6lfceru5)
 
 ## Оценка результата
 
@@ -74,4 +74,4 @@
 В результате выполнения практической работы были освоены инструменты
 работы с Yandex Lens
 
-\``wnl`
+\``fhy`
